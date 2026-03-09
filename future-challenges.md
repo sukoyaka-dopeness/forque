@@ -138,6 +138,13 @@ unrestricted (derivation-culture philosophy preserved).
 受理されていないブランチを自動的に商用不可とする。
 デフォルトは制限なし（派生文化の哲学を守る）。
 
+When disputes arise over whether an independent branch's commercial
+use is legitimate (homage vs. plagiarism), the jury system serves
+as the resolution mechanism. See deferred task: jury system (v1.0+).
+
+独立ブランチの商用利用の正当性（オマージュかパクリか）を巡る紛争は、
+陪審制が解決機構となる。
+
 ### 4.6 Story Proposal Rights Problem
 When a user sends a story expansion proposal via "声をかける," the proposal may carry automatic copyright (Berne Convention). Even if terms of service state "proposals are treated as idea provision," this has limited legal enforceability.
 

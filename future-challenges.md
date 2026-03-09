@@ -117,6 +117,27 @@ This disclaimer must be included in terms of service.
 
 つながり申請が断られた状態での商用利用はforqueの保護範囲外。規約への免責明記が必要。
 
+**Automatic "commercial use prohibited" for declined branches:**
+Technically feasible, but two problems arise:
+
+1. Indistinguishability: forque cannot distinguish between "applied
+   and was declined" and "forked without applying" — both result in
+   the same independent branch state.
+
+2. Philosophical tension: auto-restricting all independent branches
+   conflicts with forque's default position that derivation is
+   culturally natural and permitted.
+
+Proposed middle ground: if the original author sets
+"commercial use: requires accepted connection request" in their
+inheritance policy, branches without an accepted request are
+automatically restricted from commercial use. The default remains
+unrestricted (derivation-culture philosophy preserved).
+
+派生元作者が継承ポリシーで「商用利用：つながり申請受理が必要」と設定した場合のみ、
+受理されていないブランチを自動的に商用不可とする。
+デフォルトは制限なし（派生文化の哲学を守る）。
+
 ### 4.6 Story Proposal Rights Problem
 When a user sends a story expansion proposal via "声をかける," the proposal may carry automatic copyright (Berne Convention). Even if terms of service state "proposals are treated as idea provision," this has limited legal enforceability.
 

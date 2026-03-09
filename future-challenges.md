@@ -161,6 +161,44 @@ Copyright law varies significantly by country. FORQUE format must not be structu
 - MVP: Retain copyright while releasing only main-branch policy authority.
 - Future: Time-based release independent of specific legal systems. Legal judgment placed outside the format specification.
 
+### 4.8 Jury System: Cultural Judgment vs. Legal Judgment
+
+The jury system (planned for v1.0+) determines the community's
+cultural stance on disputed derivations — it does not produce
+legal verdicts.
+
+**What forque's jury system decides:**
+- Whether a derivation is considered homage or plagiarism
+  within the community
+- Norms: "this behavior is not acceptable in this space"
+- Input to integrity score and matching prioritization
+- Reference for commercial use eligibility (within forque)
+
+**What forque's jury system does NOT decide:**
+- Legal liability
+- Financial damages
+- Injunctions
+
+National courts may overturn a jury decision. forque's position:
+the platform accepts and complies with legal rulings, but the
+jury system's cultural judgment retains independent value.
+The two operate at different levels and do not replace each other.
+
+国の司法はforque陪審制の判定を覆せる。しかしforqueの陪審制は
+「法的な正しさ」ではなく「この文化圏での扱われ方」を判定する仕組みであり、
+両者は異なるレイヤーで機能する。陪審制の存在は不毛ではない。
+
+**Governing law:**
+MVP is limited to Japanese users and the Japanese language.
+This naturally limits legal complexity during early validation.
+When globalizing, the applicable jurisdiction must be explicitly
+stated in terms of service (e.g. "This service is governed by
+the laws of Japan").
+
+MVP段階では日本語・日本ユーザー限定とする。
+グローバル展開時には利用規約に準拠法を明記する必要がある。
+（例：「本サービスは日本法に準拠する」）
+
 ---
 
 ## 5. Governance & Cultural Evolution
